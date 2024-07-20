@@ -1,0 +1,235 @@
+/* Header.css */
+.mobile__menu {
+    display: none;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 15px;
+  }
+
+  @media (max-width: 1000px) {
+  .header__top__widget {
+    display: none;
+  }
+}
+
+  
+  .mobile__menu.open {
+    display: block;
+  }
+  
+  .canvas__open {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .mobile__menu__header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .close__icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .bright__icon {
+    color: #ffffff; 
+  }
+  
+  .booking {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff; /* Màu nền chính của nút */
+    border-radius: 5px; /* Bo tròn góc */
+    border: 2px solid #007bff; /* Đường viền cùng màu với nền */
+    transition: all 0.3s ease; /* Hiệu ứng chuyển đổi mượt mà */
+  }
+  
+  .booking:hover {
+    background-color: white; /* Màu nền khi hover */
+    color: #007bff; /* Màu chữ khi hover */
+    border: 2px solid #007bff; /* Đường viền khi hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng khi hover */
+    transform: scale(1.05); /* Phóng to nhẹ khi hover */
+  }
+  
+  .send__comment {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff; /* Màu nền chính của nút */
+    border-radius: 5px; /* Bo tròn góc */
+    border: 2px solid #007bff; /* Đường viền cùng màu với nền */
+    transition: all 0.3s ease; /* Hiệu ứng chuyển đổi mượt mà */
+  }
+  
+  .send__comment:hover {
+    background-color: white; /* Màu nền khi hover */
+    color: #007bff; /* Màu chữ khi hover */
+    border: 2px solid #007bff; /* Đường viền khi hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng khi hover */
+    transform: scale(1.05); /* Phóng to nhẹ khi hover */
+  }
+
+
+
+  /* Breadcrumb */
+.breadcrumb-option {
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+  color: white;
+}
+
+.breadcrumb-option .breadcrumb__text {
+  margin-top: 50px;
+}
+
+
+.breadcrumb__links span {
+  color: #fff;
+}
+
+/* Product Detail */
+.product-detail {
+  padding: 60px 0;
+}
+
+.product-detail__image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-detail__text h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.product-detail__text h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.product-detail__text ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.product-detail__text ul li {
+  margin-bottom: 10px;
+}
+
+.product-detail__text ul li span {
+  font-weight: bold;
+}
+
+.product-detail__text p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.product-detail__text .booking {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+  border: 2px solid #007bff;
+  transition: all 0.3s ease;
+}
+
+.product-detail__text .booking:hover {
+  background-color: white;
+  color: #007bff;
+  border: 2px solid #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+/* Comment Section */
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card .user-img {
+  border-radius: 50%;
+}
+
+.card .user {
+  display: flex;
+  align-items: center;
+}
+
+.card .user span {
+  margin-left: 10px;
+}
+
+.card .user small {
+  display: block;
+}
+
+.card .reply {
+  font-size: 14px;
+}
+
+.card .reply small {
+  margin-right: 10px;
+}
+
+.card .icons i {
+  margin-right: 10px;
+}
+
+.headings h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.headings .buttons .badge {
+  display: flex;
+  align-items: center;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.send__comment {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send__comment:hover {
+  background-color: #0056b3;
+}
